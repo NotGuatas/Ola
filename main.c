@@ -14,13 +14,6 @@ int main(int argc, char *argv[])
     float areaS = area1 + area2 + area3 + area4;
     float volument= calcularVolumen(g,area1);
     printf("El area superficial es: %.2f \n", areaS);
-    printf("El area 1 es: %.2f \n", area1);
-    printf("El area 2 es: %.2f \n", area2);
-    printf("El area 3 es: %.2f \n", area3);
-    printf("El area 4 es: %.2f \n", area4);
-    printf("La altura es: %.2f \n", g);
-    printf("Lado a es: %.2f \n", a);
-    printf("El volúmen es: %.2f \n", volument);
-    
+    printf("El volumen es: %.2f \n", volument);
     return 0;
 }
