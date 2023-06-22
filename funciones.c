@@ -8,7 +8,7 @@ float calcularDistancia(float x1, float y1, float z1, float x2, float y2, float 
     return dist;
 }
 
-float calcularAreaS(float puntos[3][3], float *a, float *b, float *c, float *d, float *e, float *f, float *g)
+float calcularA(float puntos[3][3], float *a, float *b, float *c, float *d, float *e, float *f, float *g)
 {
     *a = calcularDistancia(puntos[0][0], puntos[0][1], puntos[0][2], puntos[1][0], puntos[1][1], puntos[1][2]);
     *b = calcularDistancia(puntos[0][0], puntos[0][1], puntos[0][2], puntos[2][0], puntos[2][1], puntos[2][2]);

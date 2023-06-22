@@ -6,7 +6,7 @@ int main(int argc, char *argv[])
 {
     float puntos[5][3] = {{0, 0, 0}, {3, 0, 0}, {0, 0, 3}, {1, 7, 1}, {1, 0, 1}};
     float a, b, c, d, e, f, g;
-    float perimetro = calcularAreaS(puntos, &a, &b, &c, &d, &e, &f, &g);
+    float perimetro = calcularA(puntos, &a, &b, &c, &d, &e, &f, &g);
     float area1 = calcularArea(a, b, c);
     float area2 = calcularArea(b, d, e);
     float area3 = calcularArea(a, e, f);
